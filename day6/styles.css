@@ -1,0 +1,131 @@
+*{
+    font-family: "Lucida Grande", "monospace";
+}
+
+body{
+  background-color: #e0e4cc;
+}
+
+.header{
+  display: flex;
+  justify-content: center;
+  background-color: #69d2e7;
+  color: white;
+  position: sticky;
+  top: 0;
+  font-size: 1.5em;
+  
+}
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0px;
+    gap: 0.3rem;
+}
+  
+.card {
+    width: calc(33.33% - 10px);
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 30px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    margin-top: 0px;
+}
+
+.img-card{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.img-card-detail{
+    width: 15vw;
+}
+
+.title-card{
+    display: flex;
+    justify-content: center;
+    font-size: 1.3vw;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.price-card p{
+    margin-bottom: 0;
+    font-size: 1.2vw;
+}
+
+.price-card h4{
+    margin-top: 5px;
+    padding-left: 70px;
+    font-size: 1.2vw;
+}
+
+.specs{
+    margin-bottom: 0px;
+    font-size: 1.2vw;
+}
+
+.desc-card{
+    text-align: left;
+    height: 40%;
+    overflow: scroll;
+    overflow-x: hidden;
+    margin-bottom: 20px;
+    font-size: 1vw;
+}
+
+.list-desc-card{
+    margin-top: 0;
+    padding-left: 16px;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+}
+
+.button-detail{
+    background-color: #f38630;
+    color: black;
+    width: 7vw;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1vw;
+}
+
+.button-detail:hover{
+  background-color: #ff0000;
+  color: white;
+  width: 110px;
+  height: 33px;
+  border: black solid 1px;
+}
+
+.footer{
+    background-color: #69d2e7;
+    height: 60px;
+    position: sticky;
+    bottom: 0;
+    margin-top: 0px;
+}
+
+.list-footer{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    color: white;
+}
+
+.list-footer a:hover{
+  color: black;
+}
